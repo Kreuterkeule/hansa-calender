@@ -29,7 +29,7 @@ public class IcsService {
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
                 System.out.println(data);
-                returnString += data + "\n";
+                returnString += data + "<br>";
             }
             myReader.close();
         } catch (FileNotFoundException e) {
